@@ -4,7 +4,7 @@ import { Umzug, SequelizeStorage } from 'umzug';
 
 const sequelize = new Sequelize({
     username: 'root',
-    password: 'Rubi@123',
+    password: '123',
     database: 'AirBnb',
     host: process.env.DATABASE_HOST,
     dialect: 'mysql',
